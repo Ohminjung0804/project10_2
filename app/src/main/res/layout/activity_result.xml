@@ -7,6 +7,18 @@
     android:orientation="vertical"
     android:padding="15dp"
     tools:context=".ResultActivity">
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="최다 투표 아이돌"/>
+    <ImageView
+        android:id="@+id/imgv"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:src="@drawable/winter"
+        android:gravity="center_vertical"/>
     <TableLayout
         android:stretchColumns="0"
         android:layout_width="match_parent"
